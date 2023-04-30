@@ -214,18 +214,16 @@ public class Menu {
         }
     }
     public void despedir(){
-        System.out.println("*****************************");
-        System.out.println("***** ¡ Hasta luego ! *****");
-        System.out.println("*****************************");
+        System.out.println("*******************************");
+        System.out.println("***** ¡¡ GRACIAS JOAKO !! *****");
+        System.out.println("******* ¡ Hasta luego ! *******");
+        System.out.println("*******************************");
     }
 
     public void iniciar () throws SQLException {
-        /*
         saludar();
         subMenuMaterias();
         subMenuAlumnos();
-
-         */
         subMenuInscripcion();
         despedir();
     }
